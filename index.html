@@ -2,39 +2,93 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> nuovo inserimento su repo</title>
+    <title>Toboolist</title>
+    <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-
-    <!-- parte di intestazione -->
-
+    <!-- intestazione logo -->
     <header>
-      <h1> TITOLO PRINCIPALE DEL TESTO</h1>
-
+      <img id="logo" src="img/logo.png" alt="logo boolean">
+      <span class="logo-text">Toboolist</span>
     </header>
 
-    <!-- parte principale -->
-
     <main>
+      <div class="container">
+        <nav>
+          <button id="button-task"type="button" name="button">Add Task</button>
+          <button id="button-section"type="button" name="button">Add section</button>
+        </nav>
+        <hr>
 
-    <!-- prima sezione -->
-      <section>
+       <!-- prima sezione -->
+        <section>
+          <span class="category">&#9662; New Task</span>
+          <div class="sub_category">
+            <span class="check">&#10003;</span>
+            <span class="option">Quarterly Newsletter</span>
+            <span class="highlighted blue">Editorial</span>
+          </div>
+        </section>
 
-      </section>
+          <!-- seconda sezione -->
+        <section>
+          <span class="category">&#9662; Today</span>
+          <div class="sub_category">
+            <span class="check">&#10003;</span>
+            <span class="option">Recruiting Blog post</span>
+            <span class="highlighted blue">Editorial</span>
+          </div>
+          <div class="sub_category">
+            <span class="check">&#10003;</span>
+            <span class="option">Mobile App Lunch</span>
+            <span class="highlighted purple">Q1 Goals</span>
+          </div>
+          <div class="sub_category">
+            <span class="uncheck">&#10007;</span>
+            <span class="option">Interview Jhon H.</span>
+            <span class="highlighted green">Recruiting</span>
+          </div>
+          <div class="sub_category">
+            <span class="check">&#10003;</span>
+            <span class="option">Summit upgrade to mobile storefronts</span>
+            <span class="highlighted orange">Mobile</span>
+          </div>
 
-    <!-- seconda sezione   -->
-      <section>
+        </section>
 
-      </section>
+          <!-- terza sezione -->
+
+        <section>
+          <span class="category">&#9662; Upcoming</span>
+          <div class="sub_category">
+            <span class="uncheck">&#10007;</span>
+            <span class="option">Schedule meeting with Alex</span>
+          </div>
+          <div class="sub_category">
+             <span class="check">&#10003;</span>
+             <span class="option">Homepage Refresh</span>
+             <span class="highlighted fucsia">Website</span>
+          </div>
+          <div class="sub_category">
+             <span class="check">&#10003;</span>
+             <span class="option">Onboard new Sales team members</span>
+             <span class="highlighted lime">Sales</span>
+          </div>
+          <div class="sub_category">
+             <span class="check">&#10003;</span>
+             <span class="option">Review editorial calendar</span>
+             <span class="highlighted blue">Editorial</span>
+          </div>
+
+
+        </section>
+
+      </div>
+
 
     </main>
 
-    <!-- parte del footer -->
 
-
-    <footer>
-
-    </footer>
 
   </body>
 </html>
